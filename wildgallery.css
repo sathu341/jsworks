@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+
+}
+
+.img_st{
+    width:100px;
+    height:80px;
+}
+.navst{
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    top:20px;
+}
+
+.sect{
+ position:relative;
+ top:60px;
+
+}
+
+.slide_img{
+    height:478px;
+}
