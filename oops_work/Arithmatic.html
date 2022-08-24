@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        class Arithmatic{
+            disp=document.getElementById("rs");
+            setter(x,y){
+                this.firstno=x;
+                this.secondno=y;
+            }
+            add(){
+                this.ans=this.firstno+this.secondno;
+                
+            }
+            sub(){
+                this.ans=this.firstno-this.secondno;
+            }
+            result(title){
+                console.log(title)
+                console.log(this.ans)
+                alert(title+this.ans)
+               
+       
+            
+
+            }
+        }
+        let arith=new Arithmatic();
+        arith.setter(3,4);
+        arith.add();
+        arith.result("Sum ")
+        arith.setter(50,12);
+        arith.sub();
+        arith.result("substract")
+
+    </script>
+
+</body>
+</html>
