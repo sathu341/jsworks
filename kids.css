@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(37, 175, 37);
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+}
+.logicon{
+    width:25%;
+    margin-left:10px;
+    
+}
+nav ul{
+    width:65%;
+    display:flex;
+
+}
+nav ul li{
+    list-style:none;
+    width:13%;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition:2s ease-in-out;
+}
+nav ul li a:hover{
+    text-decoration:none;
+    color:rgb(37, 175, 37);
+}
+ul li .drop{
+    display:none;
+    position: absolute;
+    background-color: bisque;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 243px;
+    border-radius: 12px;
+    top: 66px;
+    z-index:9999;
+}
+
+ul li  .drop a{
+    color:rgb(100, 61, 9)!important;
+    font-size:15px;
+    padding:5px;
+}
+ul li  .drop p{
+    border-bottom: 1px solid black;
+    transition:2s ease-in-out;
+}
+ul li .drop p:hover{
+    background-color:  black;
+    color:white;
+}
