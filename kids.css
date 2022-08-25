@@ -12,6 +12,9 @@ nav{
 .logicon{
     width:25%;
     margin-left:10px;
+    font-family:Kristen ITC ;
+    color:#902997;
+    font-weight: bold;
     
 }
 nav ul{
@@ -59,4 +62,30 @@ ul li  .drop p{
 ul li .drop p:hover{
     background-color:  black;
     color:white;
+}
+
+
+.cols{
+    border-radius:10px;
+    border:1px solid lightgray;
+    padding-top:10px;
+}
+p{
+    padding:5px;
+}
+.footer{
+    background-image:url('images/turtle.png');
+    background-repeat:no-repeat;
+    background-color: beige;
+   background-position:right;
+ 
+   background-origin: content-box;
+  
+    min-height:150px;
+}
+.media{
+    height:50px;
+    width:56px;
+    float:left;
+    margin-left:5px;
 }
